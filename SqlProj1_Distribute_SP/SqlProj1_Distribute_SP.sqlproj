@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{b0e91f9d-d366-46a1-bd9b-187f050ecee0}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -57,35 +57,8 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="FirstResponderKit v 8.06" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="FirstResponderKit v 8.06\_readme.txt" />
-    <None Include="FirstResponderKit v 8.06\Data_Professional_Salary_Survey_Responses.xlsx" />
-    <None Include="FirstResponderKit v 8.06\eBook - SQL Server Setup Checklist.pdf" />
-    <None Include="FirstResponderKit v 8.06\LICENSE.md" />
-    <None Include="FirstResponderKit v 8.06\README.md" />
-    <None Include="FirstResponderKit v 8.06\Worksheet - High Availability and Disaster Recovery Planning.pdf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Build Include="FirstResponderKit v 8.06\Install-All-Scripts.sql" />
-    <Build Include="FirstResponderKit v 8.06\Install-Core-Blitz-No-Query-Store.sql" />
-    <Build Include="FirstResponderKit v 8.06\Install-Core-Blitz-With-Query-Store.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_AllNightLog.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_AllNightLog_Setup.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_Blitz.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_BlitzAnalysis.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_BlitzBackups.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_BlitzCache.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_BlitzFirst.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_BlitzIndex.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_BlitzInMemoryOLTP.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_BlitzLock.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_BlitzQueryStore.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_BlitzWho.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_DatabaseRestore.sql" />
-    <Build Include="FirstResponderKit v 8.06\sp_ineachdb.sql" />
-    <Build Include="FirstResponderKit v 8.06\SqlServerVersions.sql" />
-    <Build Include="FirstResponderKit v 8.06\Uninstall.sql" />
+    <None Include="sp_Blitz.sql" />
   </ItemGroup>
 </Project>
